@@ -1,0 +1,48 @@
+header {
+  height:100%; 
+  
+}
+.imagenEncabezado {
+    width: 100%;
+}
+.menu {
+	margin-right: 20px;
+	.menu__nav { 
+	.menu__options {
+	display: inline-block;
+	margin-left: 20px;
+	.menu__text {
+		text-decoration: none;
+    	text-transform: uppercase;
+    	font-weight: normal;
+    	font-size: 20px;
+    	color: $menu-text-color;}
+	}}
+}
+		
+
+
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover,
+a:focus {
+    background-size: 100% 3px;
+}
+
+.fondoMenu {
+	background: linear-gradient(to right, #FEF5ED, #212121)
+}
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+
+.contenedor {
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    border: 8px outset #FEF5ED;
+    border-radius: 5px;
+    background-color: #E5DCC3;
+    .contenedor__titulo {margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+    .contenedor__texto {font-size: 1.125rem;
+        margin-bottom: 15px;
+        text-transform: none;
+        text-decoration: none;
+    }
+}
+.contenedorDos {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border: 8px outset #FEF5ED;
+    border-radius: 3px;
+    background-color: #AAA492;
+}
+
+.contenedorTres {
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    border: 3px outset #FEF5ED;
+    border-radius: 2px;
+    background-color: #C7BEA2;
+}
+
+.colorCard {
+    background-color: #C3BA85;
+}
+
+
